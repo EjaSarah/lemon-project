@@ -1,4 +1,4 @@
-.header {
+/* .header {
   display: flex;
   align-items: center;
   gap: 1rem;
@@ -11,4 +11,15 @@
 .header-title {
   font-size: 1.8rem;
   color: #333;
+} */
+
+.header {
+  background-color: var(--primary-color);
+  padding: 1rem;
+  text-align: center;
+}
+
+.logo {
+  height: 60px;
+  border-radius: 0;
 }

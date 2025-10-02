@@ -1,0 +1,63 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Root variables for consistent theme */
+:root {
+  --primary-color: #495e57;
+  --secondary-color: #f4ce14;
+  --text-color: #333;
+  --background-color: #fff;
+  --font-family: "Helvetica Neue", Arial, sans-serif;
+}
+
+body {
+  font-family: var(--font-family);
+  color: var(--text-color);
+  background-color: var(--background-color);
+  line-height: 1.6;
+}
+
+/* Headings */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 600;
+  margin-bottom: 0.5em;
+  line-height: 1.2;
+}
+
+h1 {
+  font-size: 2.2rem;
+}
+h2 {
+  font-size: 1.8rem;
+}
+h3 {
+  font-size: 1.4rem;
+}
+
+/* Paragraphs and spans */
+p {
+  font-size: 1rem;
+  margin-bottom: 1em;
+  color: var(--text-color);
+}
+
+span {
+  font-weight: 500;
+  color: var(--primary-color);
+}
+
+/* Images */
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 6px;
+}

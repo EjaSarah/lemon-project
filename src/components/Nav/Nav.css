@@ -1,4 +1,4 @@
-.nav ul {
+/* .nav ul {
   display: flex;
   gap: 1.5rem;
   list-style: none;
@@ -13,11 +13,34 @@
 
 .nav a:hover {
   color: #f4d35e; /* lemon highlight */
-}
+/*}
 
 @media (max-width: 768px) {
   .nav ul {
     flex-direction: column;
     gap: 0.5rem;
   }
+} */
+
+.nav {
+  background-color: var(--secondary-color);
+  padding: 0.5rem 1rem;
+}
+
+.nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  gap: 1.5rem;
+}
+
+.nav a {
+  text-decoration: none;
+  color: var(--primary-color);
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+.nav a:hover {
+  color: #000;
 }
