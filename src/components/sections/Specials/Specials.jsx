@@ -1,3 +1,5 @@
+import React from "react";
+
 import "./Specials.css";
 
 function Specials() {

@@ -1,6 +1,8 @@
 // src/components/sections/CustomersSay/CustomersSay.jsx
 // import "./CustomersSay.css";
 
+import React from "react";
+
 function CustomersSay() {
   return (
     <section id="testimonials">

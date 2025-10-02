@@ -1,4 +1,5 @@
-// src/components/HomePage/HomePage.jsx
+import React from "react";
+
 import CallToAction from "../sections/CallToAction/CallToAction";
 import Specials from "../sections/Specials/Specials";
 import CustomersSay from "../sections/CustomersSay/CustomersSay";

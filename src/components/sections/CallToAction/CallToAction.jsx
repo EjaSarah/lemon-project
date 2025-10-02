@@ -1,4 +1,6 @@
 // src/components/sections/CallToAction/CallToAction.jsx
+import React from "react";
+
 import "./CallToAction.css";
 
 function CallToAction() {

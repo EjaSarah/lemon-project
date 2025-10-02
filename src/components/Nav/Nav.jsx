@@ -27,6 +27,8 @@
 // export default Nav;
 
 // src/components/Nav/Nav.jsx
+import React from "react";
+
 import { Link } from "react-router-dom";
 import "./Nav.css";
 

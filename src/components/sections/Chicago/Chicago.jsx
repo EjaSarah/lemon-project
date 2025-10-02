@@ -1,5 +1,6 @@
 // // src/components/sections/Chicago/Chicago.jsx
 // import "./Chicago.css";
+import React from "react";
 
 function Chicago() {
   return (
