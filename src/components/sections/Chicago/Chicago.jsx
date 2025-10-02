@@ -1,5 +1,5 @@
-// src/components/sections/Chicago/Chicago.jsx
-import "./Chicago.css";
+// // src/components/sections/Chicago/Chicago.jsx
+// import "./Chicago.css";
 
 function Chicago() {
   return (

@@ -38,17 +38,16 @@
 
 // export default App;
 
-// src/App.jsx
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Header from "./components/Header/Header";
 import Nav from "./components/Nav/Nav";
 import Footer from "./components/Footer/Footer";
 import HomePage from "./components/HomePage/HomePage";
 import BookingPage from "./components/BookingPage/BookingPage";
+import { Routes, Route } from "react-router-dom";
 
 function App() {
   return (
-    <Router>
+    <>
       <Header />
       <Nav />
       <main>
@@ -58,7 +57,7 @@ function App() {
         </Routes>
       </main>
       <Footer />
-    </Router>
+    </>
   );
 }
 

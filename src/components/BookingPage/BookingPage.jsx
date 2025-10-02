@@ -1,11 +1,10 @@
-// src/components/BookingPage/BookingPage.jsx
-import "./BookingPage.css";
+import BookingForm from "../BookingForm/BookingForm";
 
 function BookingPage() {
   return (
     <section>
       <h1>Reserve a Table</h1>
-      <p>Booking functionality coming soon!</p>
+      <BookingForm />
     </section>
   );
 }

@@ -1,5 +1,5 @@
 // src/components/sections/CustomersSay/CustomersSay.jsx
-import "./CustomersSay.css";
+// import "./CustomersSay.css";
 
 function CustomersSay() {
   return (

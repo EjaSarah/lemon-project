@@ -32,7 +32,7 @@ import "./Nav.css";
 
 function Nav() {
   return (
-    <nav className="navbar">
+    <nav className="nav">
       <ul>
         <li>
           <Link to="/">Home</Link>
