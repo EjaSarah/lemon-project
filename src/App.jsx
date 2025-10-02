@@ -1,13 +1,16 @@
-import Header from "./components/Header/Header.jsx";
-import Nav from "./components/Nav/Nav.jsx";
-import Main from "./components/Main/Main.jsx";
-import Footer from "./components/Footer/Footer.jsx";
+import Header from "./components/Header/Header";
+import Nav from "./components/Nav/Nav";
+import Main from "./components/Main/Main";
+import Footer from "./components/Footer/Footer";
+import "./App.css";
 
 function App() {
   return (
     <>
-      <Header />
-      <Nav />
+      <div className="header-wrapper">
+        <Header />
+        <Nav />
+      </div>
       <Main />
       <Footer />
     </>

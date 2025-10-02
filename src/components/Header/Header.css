@@ -1,0 +1,14 @@
+.header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.header-logo {
+  height: 60px;
+}
+
+.header-title {
+  font-size: 1.8rem;
+  color: #333;
+}

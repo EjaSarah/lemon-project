@@ -1,11 +1,27 @@
 import "./Footer.css";
 
+// src/components/Footer/Footer.jsx
+import React from "react";
+import "./Footer.css";
+
 function Footer() {
   return (
-    <footer>
-      <p>&copy; 2025 Little Lemon. All rights reserved.</p>
-      <p>123 Lemon Street, Food City, Nigeria</p>
-      <p>Email: info@littlelemon.com | Phone: +234 123 456 7890</p>
+    <footer className="footer">
+      <div className="footer-column">
+        <h4>Contact</h4>
+        <p>123 Lemon Street, Chicago</p>
+        <p>+1 123 456 7890</p>
+        <p>info@littlelemon.com</p>
+      </div>
+      <div className="footer-column">
+        <h4>Opening Hours</h4>
+        <p>Mon-Fri: 10:00 - 22:00</p>
+        <p>Sat-Sun: 12:00 - 23:00</p>
+      </div>
+      <div className="footer-column">
+        <h4>Follow Us</h4>
+        <p>Facebook | Instagram | Twitter</p>
+      </div>
     </footer>
   );
 }

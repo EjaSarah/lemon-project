@@ -1,22 +1,23 @@
-.nav {
+.nav ul {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 1rem 5%;
-  background-color: #495e57;
-  color: white;
+  gap: 1.5rem;
+  list-style: none;
 }
 
-.nav-links {
-  display: flex;
-  gap: 2rem;
-}
-
-.nav-links li {
-  font-weight: 500;
+.nav a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
   transition: color 0.3s ease;
 }
 
-.nav-links li:hover {
-  color: #f4ce14;
+.nav a:hover {
+  color: #f4d35e; /* lemon highlight */
+}
+
+@media (max-width: 768px) {
+  .nav ul {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
 }

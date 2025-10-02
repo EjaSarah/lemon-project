@@ -1,11 +1,11 @@
 import logo from "../../images/logo.png";
-// Make sure your Little
+import "./Header.css";
 
 function Header() {
   return (
-    <header>
-      <img src={logo} alt="Little Lemon Logo" />
-      <h1>Little Lemon</h1>
+    <header className="header">
+      <img src={logo} alt="Little Lemon Logo" className="header-logo" />
+      <h1 className="header-title">Little Lemon</h1>
     </header>
   );
 }
