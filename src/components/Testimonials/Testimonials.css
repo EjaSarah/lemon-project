@@ -1,0 +1,41 @@
+.testimonials {
+  padding: 4rem 5%;
+  background-color: #fff;
+  text-align: center;
+}
+
+.testimonials h2 {
+  font-size: 2.5rem;
+  color: #495e57;
+  margin-bottom: 2rem;
+}
+
+.reviews {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.review-card {
+  background-color: #f4f4f4;
+  padding: 1.5rem;
+  border-radius: 10px;
+  min-width: 220px;
+  max-width: 250px;
+  text-align: left;
+}
+
+.review-card h3 {
+  margin-bottom: 0.5rem;
+  color: #495e57;
+}
+
+.review-card p {
+  margin-bottom: 0.5rem;
+}
+
+.review-card span {
+  font-weight: bold;
+  color: #f4ce14;
+}

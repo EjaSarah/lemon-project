@@ -1,0 +1,101 @@
+.reservation {
+  padding: 4rem 5%;
+  background-color: #f9f9f9;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.reservation h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  color: #495e57;
+  margin-bottom: 2rem;
+}
+
+.reservation-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.reservation-form label {
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+  color: #495e57;
+  font-size: 1rem;
+}
+
+.reservation-form input {
+  padding: 0.7rem 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin-top: 0.5rem;
+  font-size: 1rem;
+}
+
+.dropdown-label {
+  position: relative;
+}
+
+.dropdown {
+  position: relative;
+}
+
+.dropdown-btn {
+  width: 100%;
+  padding: 0.7rem 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #edefee;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+.dropdown-btn.selected {
+  background-color: #495e57;
+  color: white;
+}
+
+.arrow {
+  font-size: 1rem;
+  margin-left: 0.5rem;
+}
+
+.dropdown-options {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin-top: 0.3rem;
+  z-index: 10;
+}
+
+.dropdown-options li {
+  padding: 0.7rem 1rem;
+  cursor: pointer;
+}
+
+.dropdown-options li:hover {
+  background-color: #f4f4f4;
+}
+
+.submit-btn {
+  padding: 0.9rem 1rem;
+  background-color: #f4ce14;
+  color: #495e57;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submit-btn:hover {
+  background-color: #e0b80f;
+}

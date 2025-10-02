@@ -1,0 +1,36 @@
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4rem 5%;
+  gap: 2rem;
+}
+
+.hero-text h1 {
+  font-size: 3rem;
+  color: #495e57;
+}
+
+.hero-text p {
+  margin: 1rem 0;
+  font-size: 1.2rem;
+}
+
+.hero-text button {
+  padding: 0.75rem 1.5rem;
+  background-color: #f4ce14;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.hero-text button:hover {
+  background-color: #d4b214;
+}
+
+.hero-image {
+  flex: 1;
+  background-color: #eedefe; /* placeholder for image */
+  height: 300px;
+  border-radius: 10px;
+}

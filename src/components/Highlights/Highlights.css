@@ -1,0 +1,40 @@
+.highlights {
+  padding: 4rem 5%;
+}
+
+.dishes {
+  display: flex;
+  gap: 2rem;
+  overflow-x: auto;
+  scroll-behavior: smooth; /* Modern scrolling */
+}
+
+.dish-card {
+  min-width: 250px;
+  background-color: #fefefe;
+  padding: 1rem;
+  border-radius: 10px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.dish-image {
+  height: 150px;
+  background-color: #eedefe; /* placeholder */
+  border-radius: 8px;
+}
+
+.dish-card button {
+  margin-top: auto;
+  padding: 0.5rem;
+  background-color: #f4ce14;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.dish-card button:hover {
+  background-color: #d4b214;
+}
