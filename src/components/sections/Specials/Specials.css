@@ -1,0 +1,16 @@
+#specials {
+  padding: 2rem;
+  background-color: #edefee;
+}
+
+.specials-grid {
+  display: flex;
+  gap: 1rem;
+}
+
+.special-card {
+  flex: 1;
+  background: white;
+  padding: 1rem;
+  border-radius: 8px;
+}
