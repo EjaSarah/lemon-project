@@ -26,7 +26,7 @@ const BookingPage = ({ availableTimes, onDateChange, submitForm }) => {
       <h1>Reserve a Table</h1>
       <BookingForm
         availableTimes={availableTimes || []} // fallback
-        onDateChange={onDateChange} // updated prop
+        onDateChange={onDateChange} // new prop
         submitForm={submitForm}
       />
     </div>
